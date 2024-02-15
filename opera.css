@@ -1,0 +1,220 @@
+body{
+  background-image: url("Screenshot\ \(166\).png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: 110px;
+}
+.search-first-div{
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+.search-second-div{
+  flex: 1;
+  display: flex;
+  margin-left: 120px;
+  margin-right: 120px;
+  max-width: 650px;
+  min-width: 300px;
+  background-color: white;
+  border-radius: 50px;
+}
+.search-input{
+  padding-left:60px ;
+  flex: 1;
+  height: 65px;
+  width: 0px;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif ;
+  outline: none;
+}
+.new-icon{
+  padding-top: 23px;
+  padding-right: 25px;
+  font-size: 20px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(155px,1fr)); 
+  gap: 60px 30px;
+  margin-top: 90px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.for-all{
+  cursor: pointer;
+  height: 100px;
+  width: 160px;
+  transition: transform 0.15s;
+}
+.for-all:hover{
+  transform: scale(1.1);
+}
+.site-images{
+  height: 100px;
+  width: 100%;
+  border-radius: 30px;
+}
+p{
+  color: white;
+  text-align: center;
+  vertical-align: top;
+  font-family: 'Cambria', Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+@media (max-width: 426px) {
+  .search-first-div{
+    margin-top: 50px;
+  }
+  .search-second-div{
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: 650px;
+    min-width: 280px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+  }
+  .search-input{
+    padding-left:30px ;
+    height: 35px;
+    width: 0px;
+    border: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif ;
+    outline: none;
+  }
+  .new-icon{
+    padding-top: 10px;
+    padding-right: 15px;
+    font-size: 15px;
+  }
+  .container{
+    grid-template-columns: repeat(auto-fit, minmax(85px,1fr)); 
+    gap: 30px 25px;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .for-all{
+    cursor: pointer;
+    height: 70px;
+    width: 100px;
+    transition: transform 0.15s;
+  }
+  .site-images{
+    height: 60px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  p{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+@media (max-width: 376px) {
+  .search-first-div{
+    margin-top: 50px;
+  }
+  .search-second-div{
+    margin-left: 100px;
+    margin-right: 100px;
+    max-width: 650px;
+    min-width: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+  }
+  .search-input{
+    padding-left:30px ;
+    height: 35px;
+    width: 0px;
+    border: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif ;
+    outline: none;
+  }
+  .search-image{
+    height: 35px;
+  }
+  .container{
+    grid-template-columns: repeat(auto-fit, minmax(85px,1fr)); 
+    gap: 30px 25px;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+  .for-all{
+    cursor: pointer;
+    height: 70px;
+    width: 100px;
+    transition: transform 0.15s;
+  }
+  .site-images{
+    height: 60px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  p{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+@media (max-width: 321px) {
+  .search-first-div{
+    margin-top: 50px;
+  }
+  .search-second-div{
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: 650px;
+    min-width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+  }
+  .search-input{
+    padding-left:30px ;
+    height: 35px;
+    width: 0px;
+    border: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif ;
+    outline: none;
+  }
+  .search-image{
+    height: 35px;
+  }
+  .container{
+    grid-template-columns: repeat(auto-fit, minmax(85px,1fr)); 
+    gap: 30px 25px;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+  .for-all{
+    cursor: pointer;
+    height: 70px;
+    width: 100px;
+    transition: transform 0.15s;
+  }
+  .site-images{
+    height: 60px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  p{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
